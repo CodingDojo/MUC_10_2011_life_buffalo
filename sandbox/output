@@ -1,4 +1,4 @@
-Life.cs(17,62): error CS1502: The best overloaded method match for `string.String(char, int)' has some invalid arguments
-/usr/lib/mono/2.0/mscorlib.dll (Location of the symbol related to previous error)
-Life.cs(17,62): error CS1503: Argument `#1' cannot convert `string' expression to type `char'
-Compilation failed: 2 error(s), 0 warnings
+......
+Tests run: 6, Failures: 0, Not run: 0, Time: 0.030 seconds
+
+

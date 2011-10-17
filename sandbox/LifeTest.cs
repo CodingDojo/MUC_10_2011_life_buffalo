@@ -115,6 +115,28 @@ public class LifeTest
         Assert.IsTrue(GridsAreEqual(expected, actual));
     }
 
+    [Test]
+    public void GridWith1Living_ReturnEmptyGrid()
+    {
+        string[] input = new String[] {
+            "........",
+            "...x....",
+            "........",
+            "........",
+        };
+
+        var actual = Life.NextGeneration(input);
+
+        string[] expected = new String[] {
+            "........",
+            "........",
+            "........",
+            "........",
+        };
+
+        Assert.IsTrue(GridsAreEqual(expected, actual));
+    }
+
 
     private bool GridsAreEqual(string[] expected, string[] actual)
     {
