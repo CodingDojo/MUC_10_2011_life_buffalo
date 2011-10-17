@@ -36,16 +36,11 @@ public class Life
         if(IsAlive(grid[row][column]))
         {
             return MustDie(numberOfNeighbours) ? deadCellSymbol : liveCellSymbol;
-            
         }
-        else {
-            if(numberOfNeighbours == 3)
-            {
-                return liveCellSymbol;
-            }
+        else 
+        {
+            return MustBorn(numberOfNeighbours) ? liveCellSymbol : deadCellSymbol;
         }
-
-        return deadCellSymbol;  
     }
 
     public static int GetNumberOfNeighbours(int row, int column, String[] grid)
@@ -96,5 +91,10 @@ public class Life
     public static bool MustDie(int numberOfNeighbours)
     {
         return numberOfNeighbours < 2 || numberOfNeighbours > 3;
+    }
+
+    public static bool MustBorn(int numberOfNeighbours)
+    {
+         return numberOfNeighbours == 3;
     }
 }
