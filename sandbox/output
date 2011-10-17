@@ -1,4 +1,3 @@
-Life.cs(33,17): error CS0103: The name `i' does not exist in the current context
-Life.cs(33,20): error CS0103: The name `j' does not exist in the current context
+Life.cs(33,12): error CS0019: Operator `==' cannot be applied to operands of type `char' and `string'
 Life.cs(68,17): error CS0019: Operator `==' cannot be applied to operands of type `char' and `string'
-Compilation failed: 3 error(s), 0 warnings
+Compilation failed: 2 error(s), 0 warnings
