@@ -9,12 +9,12 @@ public class Life
             return null;
         }
 
-        var result = new String[] {
-            "........",
-            "........",
-            "........",
-            "........",
-        };
+        var result = new String[inputField.Length];
+
+        for(int i=0; i < inputField.Length; i++)
+        {
+            result[i] = "........";
+        }
 
         return result;
     
