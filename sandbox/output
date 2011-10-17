@@ -1,3 +1,4 @@
-Life.cs(36,12): error CS0120: An object reference is required to access non-static member `Life.IsAlive(char)'
-Life.cs(90,21): error CS0120: An object reference is required to access non-static member `Life.IsAlive(char)'
-Compilation failed: 2 error(s), 0 warnings
+.............
+Tests run: 13, Failures: 0, Not run: 0, Time: 0.038 seconds
+
+

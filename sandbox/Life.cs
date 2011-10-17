@@ -35,17 +35,8 @@ public class Life
         
         if(IsAlive(grid[row][column]))
         {
-            if(numberOfNeighbours < 2)
-            {
-                return deadCellSymbol;
-            }
-            else if(numberOfNeighbours > 3)
-            {
-                return deadCellSymbol;
-            }
-            else{
-                return liveCellSymbol;
-            }
+            return MustDie(numberOfNeighbours) ? deadCellSymbol : liveCellSymbol;
+            
         }
         else {
             if(numberOfNeighbours == 3)
@@ -100,5 +91,10 @@ public class Life
     public static bool IsAlive(char cellSymbol)
     {
         return cellSymbol == liveCellSymbol;
+    }
+
+    public static bool MustDie(int numberOfNeighbours)
+    {
+        return numberOfNeighbours < 2 || numberOfNeighbours > 3);
     }
 }
