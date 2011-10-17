@@ -17,12 +17,18 @@ public class Life
             
             for(int j=0; j < inputField[i].Length; j++)
             {
-                resultRow  += ".";
+                resultRow  += GetNewCellGeneration(i, j, inputField);
             }
             result[i] = resultRow;
         }
 
         return result;
     
+    }
+
+    public static string GetNewCellGeneration(int row, int column, String[] grid)
+    {
+        return ".";
+
     }
 }
