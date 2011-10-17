@@ -1,2 +1,4 @@
-LifeTest.cs(27,35): error CS1061: Type `string[]' does not contain a definition for `Count' and no extension method `Count' of type `string[]' could be found (are you missing a using directive or an assembly reference?)
-Compilation failed: 1 error(s), 0 warnings
+..
+Tests run: 2, Failures: 0, Not run: 0, Time: 0.023 seconds
+
+
