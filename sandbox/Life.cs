@@ -2,6 +2,9 @@ using System;
 
 public class Life
 {
+    public const char liveCellSymbol = 'x';
+    public const char deadCellSymbol = '.';    
+
     public static string[] NextGeneration(string[] inputField)
     {
         if(inputField == null)
@@ -30,31 +33,28 @@ public class Life
     {
         int numberOfNeighbours = GetNumberOfNeighbours(row, column, grid);
         
-        if(grid[row][column] == 'x')
+        if(IsAlive(grid[row][column]))
         {
             if(numberOfNeighbours < 2)
             {
-                return ".";
+                return deadCellSymbol;
             }
             else if(numberOfNeighbours > 3)
             {
-                return ".";
+                return deadCellSymbol;
             }
             else{
-                return "x";
+                return liveCellSymbol;
             }
         }
         else {
             if(numberOfNeighbours == 3)
             {
-                return "x";
+                return liveCellSymbol;
             }
         }
 
-        return ".";  
-
-        
-
+        return deadCellSymbol;  
     }
 
     public static int GetNumberOfNeighbours(int row, int column, String[] grid)
@@ -87,7 +87,7 @@ public class Life
                 {
                     continue;
                 }
-                if (grid[y][x] == 'x')
+                if (IsAlive(grid[y][x]))
                 {
                     result++;
                 }
@@ -95,5 +95,10 @@ public class Life
          }
 
         return result;
+    }
+
+    public bool IsAlive(char cellSymbol)
+    {
+        return cellSymbol == liveCellSymbol;
     }
 }
