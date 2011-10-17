@@ -44,6 +44,13 @@ public class Life
                 return "x";
             }
         }
+        else {
+            if(numberOfNeighbours == 3)
+            {
+                return "x";
+            }
+        }
+
         return ".";  
 
         
