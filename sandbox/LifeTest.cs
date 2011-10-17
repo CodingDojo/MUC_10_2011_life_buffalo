@@ -138,7 +138,7 @@ public class LifeTest
     }
 
     [Test]
-    public void GridWith3Living_Return1LivingInGrid()
+    public void GridWith3Living_Return3LivingInGrid()
     {
         string[] input = new String[] {
             "...x....",
@@ -151,7 +151,7 @@ public class LifeTest
 
         string[] expected = new String[] {
             "........",
-            "...x....",
+            "..xxx...",
             "........",
             "........",
         };
@@ -160,7 +160,7 @@ public class LifeTest
     }
 
     [Test]
-    public void GridWith3LivingAlignedInRow_Return1LivingInGrid()
+    public void GridWith3LivingAlignedInRow_Return3LivingInGrid()
     {
         string[] input = new String[] {
             "........",
@@ -172,9 +172,9 @@ public class LifeTest
         var actual = Life.NextGeneration(input);
 
         string[] expected = new String[] {
-            "........",
             "...x....",
-            "........",
+            "...x....",
+            "...x....",
             "........",
         };
 
@@ -194,9 +194,9 @@ public class LifeTest
         var actual = Life.NextGeneration(input);
 
         string[] expected = new String[] {
-            "...x....",
+            "..xxx...",
             "..x.x...",
-            "...x....",
+            "..xxx...",
             "........",
         };
 
@@ -217,7 +217,7 @@ public class LifeTest
 
         string[] expected = new String[] {
             "....x...",
-            "........",
+            ".....x..",
             "...xx...",
             "...xx...",
         };
