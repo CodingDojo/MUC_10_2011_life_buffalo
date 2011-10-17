@@ -1,2 +1,4 @@
-LifeTest.cs(11,13): error CS0029: Cannot implicitly convert type `string[]' to `int'
-Compilation failed: 1 error(s), 0 warnings
+.
+Tests run: 1, Failures: 0, Not run: 0, Time: 0.020 seconds
+
+
