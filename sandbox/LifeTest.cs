@@ -159,6 +159,28 @@ public class LifeTest
         Assert.IsTrue(GridsAreEqual(expected, actual));
     }
 
+    [Test]
+    public void GridWith3LivingAlignedInRow_Return1LivingInGrid()
+    {
+        string[] input = new String[] {
+            "........",
+            "..xxx...",
+            "........",
+            "........",
+        };
+
+        var actual = Life.NextGeneration(input);
+
+        string[] expected = new String[] {
+            "........",
+            "...x....",
+            "........",
+            "........",
+        };
+
+        Assert.IsTrue(GridsAreEqual(expected, actual));
+    }
+
 
     private bool GridsAreEqual(string[] expected, string[] actual)
     {

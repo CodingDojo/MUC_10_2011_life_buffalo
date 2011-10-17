@@ -1,3 +1,4 @@
-Life.cs(33,12): error CS0019: Operator `==' cannot be applied to operands of type `char' and `string'
-Life.cs(68,17): error CS0019: Operator `==' cannot be applied to operands of type `char' and `string'
-Compilation failed: 2 error(s), 0 warnings
+........
+Tests run: 8, Failures: 0, Not run: 0, Time: 0.031 seconds
+
+
