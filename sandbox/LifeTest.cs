@@ -95,6 +95,26 @@ public class LifeTest
         Assert.IsTrue(GridsAreEqual(expected, actual));
     }
 
+    [Test]
+    public void GridWith7Columns_Return7Columns()
+    {
+        string[] input = new String[] {
+            ".......",
+            ".......",
+            ".......",
+        };
+
+        var actual = Life.NextGeneration(input);
+
+        string[] expected = new String[] {
+            ".......",
+            ".......",
+            ".......",
+        };
+
+        Assert.IsTrue(GridsAreEqual(expected, actual));
+    }
+
 
     private bool GridsAreEqual(string[] expected, string[] actual)
     {
