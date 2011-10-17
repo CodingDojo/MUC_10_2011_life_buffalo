@@ -13,7 +13,8 @@ public class Life
 
         for(int i=0; i < inputField.Length; i++)
         {
-            result[i] = "........";
+            
+            result[i] = new String(".", inputField[i].Length);
         }
 
         return result;
