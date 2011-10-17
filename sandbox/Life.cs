@@ -52,11 +52,14 @@ public class Life
 
         for (int i = -1; i <=1; i++)
         {
-            if (i == 0)
+            for (j= -1; j<= 1; j++)
+            {
+            if (i == 0 || j==0)
             {
                 continue;
             }
             int y = row + i;
+            int x = column+ j;
             if (y < 0)
             {
                 continue;
@@ -65,7 +68,15 @@ public class Life
             {
                 continue;
             }
-            if (grid[y][column] == 'x')
+            if (x < 0)
+            {
+                continue;
+            }
+            if (x >= grid[y].Length)
+            {
+                continue;
+            }
+            if (grid[y][x] == 'x')
             {
                 result++;
             }
