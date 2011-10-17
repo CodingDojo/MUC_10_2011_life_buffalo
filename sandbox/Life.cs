@@ -36,6 +36,10 @@ public class Life
             {
                 return ".";
             }
+            else if(numberOfNeighbours > 3)
+            {
+                return ".";
+            }
             else{
                 return "x";
             }
