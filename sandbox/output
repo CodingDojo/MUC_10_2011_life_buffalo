@@ -1,3 +1,2 @@
-Life.cs(8,5): error CS1525: Unexpected symbol `}', expecting `;'
-Life.cs(10,1): error CS8025: Parsing error
-Compilation failed: 2 error(s), 0 warnings
+LifeTest.cs(11,13): error CS0029: Cannot implicitly convert type `string[]' to `int'
+Compilation failed: 1 error(s), 0 warnings
