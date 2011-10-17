@@ -1,8 +1,3 @@
 Life.cs(36,12): error CS0120: An object reference is required to access non-static member `Life.IsAlive(char)'
-Life.cs(40,17): error CS0029: Cannot implicitly convert type `char' to `string'
-Life.cs(44,17): error CS0029: Cannot implicitly convert type `char' to `string'
-Life.cs(47,17): error CS0029: Cannot implicitly convert type `char' to `string'
-Life.cs(53,17): error CS0029: Cannot implicitly convert type `char' to `string'
-Life.cs(57,9): error CS0029: Cannot implicitly convert type `char' to `string'
 Life.cs(90,21): error CS0120: An object reference is required to access non-static member `Life.IsAlive(char)'
-Compilation failed: 7 error(s), 0 warnings
+Compilation failed: 2 error(s), 0 warnings

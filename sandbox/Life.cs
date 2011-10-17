@@ -97,7 +97,7 @@ public class Life
         return result;
     }
 
-    public bool IsAlive(char cellSymbol)
+    public static bool IsAlive(char cellSymbol)
     {
         return cellSymbol == liveCellSymbol;
     }
