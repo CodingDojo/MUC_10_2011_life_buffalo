@@ -54,31 +54,32 @@ public class Life
         {
             for (j= -1; j<= 1; j++)
             {
-            if (i == 0 || j==0)
-            {
-                continue;
-            }
-            int y = row + i;
-            int x = column+ j;
-            if (y < 0)
-            {
-                continue;
-            }
-            if (y >= grid.Length)
-            {
-                continue;
-            }
-            if (x < 0)
-            {
-                continue;
-            }
-            if (x >= grid[y].Length)
-            {
-                continue;
-            }
-            if (grid[y][x] == 'x')
-            {
-                result++;
+                if (i == 0 || j==0)
+                {
+                    continue;
+                }
+                int y = row + i;
+                int x = column+ j;
+                if (y < 0)
+                {
+                    continue;
+                }
+                if (y >= grid.Length)
+                {
+                    continue;
+                }
+                if (x < 0)
+                {
+                    continue;
+                }
+                if (x >= grid[y].Length)
+                {
+                    continue;
+                }
+                if (grid[y][x] == 'x')
+                {
+                    result++;
+                }
             }
          }
 

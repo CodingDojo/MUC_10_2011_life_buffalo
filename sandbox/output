@@ -1,15 +1,2 @@
-......F...
-Tests run: 9, Failures: 1, Not run: 0, Time: 0.079 seconds
-
-Test Case Failures:
-1) LifeTest.GridWith3LivingAlignedInRow_Return1LivingInGrid :   String lengths are both 8. Strings differ at index 3.
-  Expected: "...x...."
-  But was:  "........"
-  --------------^
-
-at LifeTest.GridsAreEqual (System.String[] expected, System.String[] actual) [0x00000]
-at LifeTest.GridWith3LivingAlignedInRow_Return1LivingInGrid () [0x00000]
-at (wrapper managed-to-native) System.Reflection.MonoMethod:InternalInvoke (object,object[],System.Exception&)
-at System.Reflection.MonoMethod.Invoke (System.Object obj, BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00000]
-
-
+Life.cs(88,1): error CS8025: Parsing error
+Compilation failed: 1 error(s), 0 warnings
