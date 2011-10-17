@@ -1,1 +1,1 @@
-[]
+[{:run_tests_output=>"Life.cs(8,5): error CS1525: Unexpected symbol `}', expecting `;'\nLife.cs(10,1): error CS8025: Parsing error\nCompilation failed: 2 error(s), 0 warnings\n", :time=>[2011, 10, 17, 21, 5, 49], :outcome=>:error, :number=>1}]
