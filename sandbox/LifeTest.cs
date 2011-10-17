@@ -58,7 +58,7 @@ public class LifeTest
         Assert.IsNotNull(expected);
         Assert.IsNotNull(actual);
         Assert.AreEqual(expected.Length, actual.Length);
-        for int (i = 0; i < expected.Length; i++) 
+        for (int i = 0; i < expected.Length; i++) 
         {
             Assert.AreEqual(expected[i], actual[i]);
         }

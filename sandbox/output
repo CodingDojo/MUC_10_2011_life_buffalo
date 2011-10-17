@@ -1,4 +1,6 @@
-..
-Tests run: 2, Failures: 0, Not run: 0, Time: 0.023 seconds
-
-
+LifeTest.cs(61,15): error CS1525: Unexpected symbol `int', expecting `('
+LifeTest.cs(61,25): error CS0201: Only assignment, call, increment, decrement, and new object expressions can be used as a statement
+LifeTest.cs(61,49): error CS1525: Unexpected symbol `)', expecting `;'
+LifeTest.cs(65,14): error CS1519: Unexpected symbol `return' in class, struct, or interface member declaration
+LifeTest.cs(68,1): error CS8025: Parsing error
+Compilation failed: 5 error(s), 0 warnings
