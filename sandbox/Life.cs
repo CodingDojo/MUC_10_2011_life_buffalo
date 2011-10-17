@@ -95,6 +95,6 @@ public class Life
 
     public static bool MustDie(int numberOfNeighbours)
     {
-        return numberOfNeighbours < 2 || numberOfNeighbours > 3);
+        return numberOfNeighbours < 2 || numberOfNeighbours > 3;
     }
 }
