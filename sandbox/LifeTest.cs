@@ -141,9 +141,9 @@ public class LifeTest
     public void GridWith3Living_Return1LivingInGrid()
     {
         string[] input = new String[] {
-            "........",
-            "..xxx...",
-            "........",
+            "...x....",
+            "...x....",
+            "...x....",
             "........",
         };
 
