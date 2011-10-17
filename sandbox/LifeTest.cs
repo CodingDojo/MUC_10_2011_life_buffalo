@@ -180,6 +180,28 @@ public class LifeTest
 
         Assert.IsTrue(GridsAreEqual(expected, actual));
     }
+    
+    [Test]
+    public void CellWith4Neighbours_Dies()
+    {
+        string[] input = new String[] {
+            "...x....",
+            "..xxx...",
+            "...x....",
+            "........",
+        };
+
+        var actual = Life.NextGeneration(input);
+
+        string[] expected = new String[] {
+            "...x....",
+            "..x.x...",
+            "...x....",
+            "........",
+        };
+
+        Assert.IsTrue(GridsAreEqual(expected, actual));
+    }
 
 
     private bool GridsAreEqual(string[] expected, string[] actual)
