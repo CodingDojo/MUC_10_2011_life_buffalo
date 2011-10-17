@@ -30,7 +30,7 @@ public class Life
     {
         int numberOfNeighbours = GetNumberOfNeighbours(row, column, grid);
         
-        if(grid[i][j] == "x")
+        if(grid[row][column] == "x")
         {
             if(numberOfNeighbours < 2)
             {
