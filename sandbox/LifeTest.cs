@@ -29,5 +29,6 @@ public class LifeTest
         Assert.AreEqual(input[1].Length, actual[1].Length);
         Assert.AreEqual(input[2].Length, actual[2].Length);
         Assert.AreEqual(input[3].Length, actual[3].Length);
+    }
 }
 

@@ -1,4 +1,2 @@
-.
-Tests run: 1, Failures: 0, Not run: 0, Time: 0.020 seconds
-
-
+LifeTest.cs(34,1): error CS8025: Parsing error
+Compilation failed: 1 error(s), 0 warnings
