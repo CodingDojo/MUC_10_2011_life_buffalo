@@ -13,8 +13,13 @@ public class Life
 
         for(int i=0; i < inputField.Length; i++)
         {
+            string resultRow = "";
             
-            result[i] = new String(".", inputField[i].Length);
+            for(int j=0; j < inputField[i].Length; j++)
+            {
+                resultRow  += ".";
+            }
+            result[i] = resultRow;
         }
 
         return result;
