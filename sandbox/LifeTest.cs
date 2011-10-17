@@ -24,7 +24,7 @@ public class LifeTest
 
         var actual = Life.NextGeneration(input);
 
-        Assert.AreEqual(4, actual.Count);
+        Assert.AreEqual(4, actual.Length);
         Assert.AreEqual(input[0].Length, actual[0].Length);
         Assert.AreEqual(input[1].Length, actual[1].Length);
         Assert.AreEqual(input[2].Length, actual[2].Length);
