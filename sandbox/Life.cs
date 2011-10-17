@@ -29,7 +29,7 @@ public class Life
     
     }
 
-    public static string GetNewCellGeneration(int row, int column, String[] grid)
+    public static char GetNewCellGeneration(int row, int column, String[] grid)
     {
         int numberOfNeighbours = GetNumberOfNeighbours(row, column, grid);
         
