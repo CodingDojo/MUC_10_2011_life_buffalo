@@ -1,11 +1,3 @@
-
-  Click the Run Tests button (above). The output will appear here.
-  A traffic-light will also appear:
-     (o) red   - the tests ran but one or more failed
-     (o) amber - the tests could not be run
-     (o) green - the tests ran and all passed
-  Click any traffic light to view its diff.
-
-  Click a filename (left) to edit it here.
-
-  Click the Post button (left) to send a message to everyone.
+Life.cs(8,5): error CS1525: Unexpected symbol `}', expecting `;'
+Life.cs(10,1): error CS8025: Parsing error
+Compilation failed: 2 error(s), 0 warnings
